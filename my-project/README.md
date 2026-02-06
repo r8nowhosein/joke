@@ -27,3 +27,5 @@ npm run dev
   - 2 komponeneter
   - Usestate 
   - Useeffect - Hämta data från API
+
+  Har några extra filer så som _redirects då jag laddade upp projektet hos netlify https://kyh-joke.netlify.app/
