@@ -10,12 +10,12 @@ const FaveJokes = ({ list }) => {
         <p className="text-gray-500">Inga favoriter än...</p>
       ) : (
         <ul className="list-disc pl-5">
-          {list.map((fav, index) => (
+          {list.slice(0, 3).map((fav, index) => (
             <li key={index} className="mb-2 italic">"{fav}"</li>
           ))}
         </ul>
       )}
-          <p className='text-3xl mt-12 underline'><Link to="/faves">Se all dina sparade skämt här</Link> {list ? list.length : 0} st</p>
+          <p className='text-3xl mt-12 underline'><Link to="/faves">Se alla dina sparade skämt här</Link> {list ? list.length : 0} st</p>
 
     </div>
   )

@@ -55,7 +55,7 @@ export default function FetchJoke({ faves, setFaves }) {
            {console.log(faves) }
            </div>
          
-          <FaveJokes list={faves.slice(0, 3)} />
+          <FaveJokes list={faves} />
 
             
           
