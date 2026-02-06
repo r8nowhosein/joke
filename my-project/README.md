@@ -18,3 +18,12 @@ npm run dev
 
 ## öppna localhost
   http://localhost:5173/
+
+  ## Betyg G
+  Satsade på ett G i betyg
+
+  - Routing
+  - 3 views
+  - 2 komponeneter
+  - Usestate 
+  - Useeffect - Hämta data från API

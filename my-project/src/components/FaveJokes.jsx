@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-// Vi tar emot 'list' som en prop
 const FaveJokes = ({ list }) => {
   return (
     <div className="mt-8 border-t pt-4">
