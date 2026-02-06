@@ -21,11 +21,13 @@ const [faves, setFaves] = useState([]);
         </ul>
       </nav>
      </header>
+     
     <div className="App">
         <Routes>
           <Route path="/" element={<FetchJoke faves={faves} setFaves={setFaves} />} />
           <Route path="/about" element={<About />} />
           <Route path="/faves" element={<FavePage faves={faves} />} />
+
         </Routes>
       
     </div>    
